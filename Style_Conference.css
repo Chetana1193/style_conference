@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    padding:0;
+    font-family: 'Urbanist', sans-serif;
+}
+.container{
+    /* border: 2px solid black; */
+    color: #fff;
+    background-color:#293f50;
+    width: 100%;
+}
+.section-one{
+    width: 70%;
+    margin: auto;
+    /* border: 2px solid white; */
+    display: flex;
+    background-color:#293f50;
+    color: #fff;
+    justify-content: center;
+   
+}
+.section-left{
+    width: 50%;
+/* border: 2px solid white; */
+}
+.section-left h1{
+    font-size: 50px;
+    padding: 30px;
+    margin: 0;
+}
+.section-left h1:hover{
+    font-weight: lighter;
+    cursor: pointer;
+    color: rgb(241, 158, 241);
+}
+.section-right{
+    padding: 50px 20px;
+    width: 50%;
+    /* border: 2px solid white; */
+    text-align: right;
+}
+.tagline{
+    margin-top: 50px;
+    font-size: 15px;
+}
+.tagline:hover{
+    cursor: pointer;
+    color: rgb(212, 146, 212);
+}
+.navbar{
+    text-align: right;
+    color: #fff;
+}   
+.navbar ul {
+    float: right;
+    display: flex;
+   overflow: auto;
+   list-style: none;
+}
+.navbar li{
+margin-left :10px;
+}
+.navbar li a{
+    text-decoration: none;
+    color: #fff;
+}
+.navbar li a:hover{
+    cursor: pointer;
+    color: rgb(231, 140, 231);
+}
+.section-two{
+    margin: 0;
+    align-items: center;
+    background-color:#293f50;
+    text-align: center;
+    padding: 200px,10px;
+    /* border: 2px solid white; */
+}
+.content{
+    margin: 0px;
+}
+.content h1{
+    margin: 0;
+    color: rgb(10, 133, 96);
+}
+.content p{
+    color: white;
+}
+.button{
+    padding: 20px;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 20PX;
+    /* border: 2px solid white; */
+    border-radius: 15px;
+}
+.button:hover{
+    background-color: #293f50;
+    color: #fff;
+    font-weight: lighter;
+}
+.section-three{
+    display:flex;
+    justify-content:center;  
+}
+
+.image{
+    text-align:left;
+    /* border: 2px solid black; */
+    margin: 20px;
+    width: 20%;
+}
+.image img{
+    width:100%;
+} 
+.footer{
+    height: 100px;
+    background-color: #293f50;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.text{
+    color: rgb(8, 219, 219);
+}
